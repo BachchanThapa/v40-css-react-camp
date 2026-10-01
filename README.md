@@ -9,3 +9,7 @@
 ### at console
 
 Invalid DOM property `class`. Did you mean `className`?
+
+### Important
+
+In React/JSX we use `className`, not HTML `class`.
