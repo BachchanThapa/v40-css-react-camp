@@ -33,7 +33,7 @@ function App() {
   }
 
   return (
-    <main class="app">
+    <main className="app">
       <h1> My ToDo List </h1>
       <form className="input-row" onSubmit={addTodo}>
         <input
