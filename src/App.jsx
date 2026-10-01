@@ -46,7 +46,7 @@ function App() {
 
       <ul className="todo-list">
         {todos.map((todo) => (
-          <li className="todo" key={todo.id}>
+          <li key={todo.id} className={todo.done ? "todo completed" : "todo"}>
             <button type="button" onClick={() => toggleDone(todo.id)}>
               {todo.done ? "Unmark" : "Done"}
             </button>{" "}
