@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./App.css";
 
 function App() {
   const [todos, setTodos] = useState([
@@ -32,7 +33,7 @@ function App() {
   }
 
   return (
-    <main className="app">
+    <main class="app">
       <h1> My ToDo List </h1>
       <form className="input-row" onSubmit={addTodo}>
         <input
