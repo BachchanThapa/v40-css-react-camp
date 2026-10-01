@@ -1,5 +1,22 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
+/* Saknas fortfarande: maxbredd, input-row i flex, liststil */
+.app {
+  max-width: 28rem;
+  margin: 2rem;
+  font-family: system-ui, sans-serif;
+}
+
+.input-row {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.todo-list {
+  list-style: none;
   padding: 0;
+}
+
+.todo {
+  padding: 0.65rem 0;
+  border-bottom: 1px solid #e2e8f0;
 }
